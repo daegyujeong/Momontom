@@ -73,15 +73,19 @@ input::placeholder {
   top: 30px;
   right: 30px;
   width: 135px;
-  height: 135px;
+  height: 180px;
   background-color: white;
   border-radius: 15px;
   opacity: 0.8;
 }
-.js-weather {
-  display: block;
+.weather {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   font-weight: 700;
+  width: 135px;
+  height: 45px;
 }
 .js-toDoList {
   padding: 0;
